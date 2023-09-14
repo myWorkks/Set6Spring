@@ -1,16 +1,16 @@
-package com.marolix.ABC.service;
+package com.marolix.ABC.controller;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import com.marolix.ABC.config.BeanConfiguration;
-import com.marolix.ABC.repository.Repository;
+import com.marolix.ABC.service.Service;
 
-public class Service {
-	public void service() {
+public class Controller {
+	public void controller() {
+		System.out.println("thi is controller");
 		ApplicationContext cont = new AnnotationConfigApplicationContext(BeanConfiguration.class);
-		System.out.println("this is service");
-		Repository r = cont.getBean(Repository.class);
-		r.repository();
+		Service s = cont.getBean(Service.class);
+		s.service();
 	}
 }
