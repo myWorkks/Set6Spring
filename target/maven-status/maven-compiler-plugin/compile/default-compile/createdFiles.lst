@@ -1,0 +1,5 @@
+com\marolix\ABC\service\Service.class
+com\marolix\ABC\repository\Repository.class
+com\marolix\ABC\UI.class
+com\marolix\ABC\config\BeanConfiguration.class
+com\marolix\ABC\controller\Controller.class

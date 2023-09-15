@@ -1,5 +1,6 @@
 package com.marolix.ABC;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -10,7 +11,7 @@ import com.marolix.ABC.service.Service;
 public class UI {
 
 	public static void main(String[] args) {
-		
+
 //		Service o = context.getBean(Service.class);
 //		Service o2 = context.getBean(Service.class);
 //		Service s = new Service();

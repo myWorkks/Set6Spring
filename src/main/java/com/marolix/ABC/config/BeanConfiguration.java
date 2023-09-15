@@ -1,5 +1,7 @@
 package com.marolix.ABC.config;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
@@ -14,6 +16,10 @@ public class BeanConfiguration {
 	@Scope(value = "singleton")
 	// @Scope(value="prototype",true)
 	public Service createServiceBean() {
+		// ApplicationContext context = new
+		// AnnotationConfigApplicationContext(BeanConfiguration.class);
+
+		// Repository r = new Repository();
 		return new Service();
 	}
 
