@@ -4,7 +4,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = {"com.marolix.annotationconfig","com.marolix.annotation.service"})
+@ComponentScan(basePackages = { "com.marolix.annotationconfig" })
 public class ConfigClass {
 
 }

@@ -1,5 +1,12 @@
+com\marolix\annotationconfig\UI.class
+com\marolix\annotationconfig\ConfigClass.class
+com\marolix\ABC\config\BeanConfiguration.class
+com\marolix\ABC\controller\Controller.class
+com\marolix\annotationconfig\repository\Repository.class
+com\marolix\annotation\service\Service.class
+com\marolix\annotation\service\ServiceImpl2.class
 com\marolix\ABC\service\Service.class
 com\marolix\ABC\repository\Repository.class
 com\marolix\ABC\UI.class
-com\marolix\ABC\config\BeanConfiguration.class
-com\marolix\ABC\controller\Controller.class
+com\marolix\annotationconfig\controller\Controller.class
+com\marolix\annotation\service\ServiceInterface.class
